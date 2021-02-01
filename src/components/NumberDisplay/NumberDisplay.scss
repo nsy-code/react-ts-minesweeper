@@ -1,0 +1,9 @@
+@import "src/styles/index.scss";
+.NumberDisplay {
+  width: 80px;
+  height: 48px;
+  color: #ff0701;
+  background-color: black;
+  text-align: center;
+  font-size: $font-size-screen;
+}

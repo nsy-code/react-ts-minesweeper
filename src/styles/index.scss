@@ -1,0 +1,14 @@
+@mixin borders($left-top: #fff, $right-bottom: #7b7b7b) {
+  border-width: 4px;
+  border-style: solid;
+  border-color: $left-top $right-bottom $right-bottom $left-top;
+}
+
+@mixin buttons {
+  &:active {
+    border-color: #7b7b7b white white #7b7b7b;
+  }
+}
+
+$font-size-screen: 3rem;
+$font-size-control: 2rem;

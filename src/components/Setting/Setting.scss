@@ -1,0 +1,28 @@
+.container {
+  min-height: 200px;
+  width: 400px;
+  border: solid;
+  border-radius: 5px;
+  position: absolute;
+  background-color: white;
+  top: 100px;
+  padding: 0px 20px;
+
+  .setting-item {
+    margin-bottom: 10px;
+    display: flex;
+    .item-name {
+      min-width: 100px;
+    }
+  }
+
+  .error-msg{
+    color: red;
+    padding-left: 100px;
+  }
+
+  .setting-btn {
+    text-align: right;
+    padding-bottom: 19px;
+  }
+}

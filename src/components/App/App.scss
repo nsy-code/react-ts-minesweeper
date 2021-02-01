@@ -1,0 +1,40 @@
+@import "src/styles/index.scss";
+
+.App {
+  @include borders(#fff, #999);
+  background-color: #c2c2c2;
+  padding: 16px;
+
+  .Header {
+    @include borders(#7b7b7b, #fff);
+    background-color: #c0c0c0;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+  }
+
+  .Body {
+    @include borders(#7b7b7b, #fff);
+    margin-top: 16px;
+    display: grid;
+  }
+}
+
+.Control{
+  padding: 5px;
+  font-size: $font-size-control;
+}
+
+.Face {
+  @include borders;
+  @include buttons;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  font-size: 35px;
+  cursor: pointer;
+}
