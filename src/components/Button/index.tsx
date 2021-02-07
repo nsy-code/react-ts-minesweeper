@@ -1,6 +1,6 @@
-import React from "react";
-import { CellState, CellValue, Face, BtnIcon } from "src/types";
-import "./Button.scss";
+import React from 'react';
+import { CellState, CellValue, Face, BtnIcon } from 'src/types';
+import './Button.scss';
 
 interface ButtonProps {
   row: number;
@@ -46,14 +46,14 @@ const Button: React.FC<ButtonProps> = ({
   };
 
   const handleMouseDownEvent = (
-    e: React.MouseEvent<HTMLDivElement, MouseEvent>
+    e: React.MouseEvent<HTMLDivElement, MouseEvent>,
   ): void => {
     e.preventDefault();
     onMouseClick(Face.oh);
   };
 
   const handleMouseUpEvent = (
-    e: React.MouseEvent<HTMLDivElement, MouseEvent>
+    e: React.MouseEvent<HTMLDivElement, MouseEvent>,
   ): void => {
     e.preventDefault();
     onMouseClick(Face.smile);
@@ -62,8 +62,8 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <div
       className={`Button ${
-        state === CellState.visible ? "visible" : ""
-      } value-${value} ${red ? "red" : ""}`}
+        state === CellState.visible ? 'visible' : ''
+      } value-${value} ${red ? 'red' : ''}`}
       onClick={onClick(row, col)}
       onContextMenu={onContext(row, col)}
       onMouseDown={handleMouseDownEvent}
