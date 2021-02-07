@@ -7,7 +7,8 @@
 <a name="appinfo"></a>
 
 ## Description
-The app is a traditional computer game. This is the first try for TypeScript.
+The app is a traditional computer game. This is the first try for TypeScript. <br>
+Demo: https://601fa241361c93c19c8286a9--mine-sweeper-ts.netlify.app/
 
 <a name="technologies"></a>
 
