@@ -2,7 +2,7 @@
 
 1. [Description](#appinfo)
 2. [Technologies](#technologies)
-3. [Features](#features)
+3. [Design](#design)
 
 <a name="appinfo"></a>
 
@@ -16,11 +16,19 @@ Demo: https://mine-sweeper-ts.netlify.app/
 - React.js
 - TypeScript
 
-<a name="features"></a>
+<a name="design"></a>
 
-## Features
+## Design
 It uses `create-react-app` with the `ts` template to create the app.
 
 ```shell
 npx create-react-app react-ts-minesweeper --template typescript
 ```
+<br>
+<img src="./design.png" width="350" title="design">
+<br>
+Setting <br>
+<img src="./setting.png" width="350" title="design">
+
+End <br>
+<img src="./lose.png" width="350" title="design">
